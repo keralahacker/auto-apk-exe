@@ -2,10 +2,9 @@
 automatic androd paylod genarator 
 
 # step1
-git clone https://github.com/keralahacker/auto-apk
-cd auto-apk
-chmod +x *
-./FUD.sh
+copy the one line comment .
+
+git clone https://github.com/keralahacker/auto-apk && cd auto-apk && chmod +x * && ./FUD.sh
 
 # youtube video 
 will be updated
