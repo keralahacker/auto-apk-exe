@@ -1,13 +1,13 @@
-# auto-apk
+## payload genarater
 automatic androd paylod genarator 
 
-# step1
+## step1
 copy the one line comment .
 
 git clone https://github.com/keralahacker/auto-apk && cd auto-apk && chmod +x * && ./FUD.sh
 
-# youtube video 
+## youtube video 
 will be updated
 
-# Telegrame 
-t.me/hackwithvyshu
+## Telegrame 
+#t.me/hackwithvyshu
