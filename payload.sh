@@ -1,4 +1,7 @@
 #!/bin/bash
+sudo apt-get install pv -y
+clear
+pkg install pv -y 
 clear 
 echo ""
 echo ""
